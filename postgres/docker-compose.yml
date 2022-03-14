@@ -8,7 +8,7 @@ services:
     ports:
       - "5432:5432"
     volumes:
-      - /home/machine/postgres-prodabel:/var/lib/postgresql/data 
+      - /home/pedro/postgres-volumes:/var/lib/postgresql/data 
     networks:
       - postgres-compose-network
       
