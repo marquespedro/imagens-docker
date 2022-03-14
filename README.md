@@ -1,2 +1,1 @@
-# imagens-docker
-imagens uteis docker
+#Arquivos uteis para subir imagens docker com docker-compose
