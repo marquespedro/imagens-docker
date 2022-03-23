@@ -9,6 +9,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: "MySql2021!"
       MYSQL_DATABASE: "testedb"
+      MYSQL_USER: 'ecommerce'
+      MYSQL_PASSWORD: 'MySql2021!'
     ports:
       - "3306:3306"
     volumes:
