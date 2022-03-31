@@ -16,3 +16,6 @@
     
 ## o mesmo do comando anterior porém obtendo todas as mensagens enviadas no topico desde o inicio
     # kafka-console-consumer --bootstrap-server localhost:29092 --topic meutopico --from-beginning
+    
+## o mesmo do comando anterior porém consumindo de um grupo 
+    # kafka-console-consumer --bootstrap-server localhost:29092 --topic meutopico --from-beginning --group a
