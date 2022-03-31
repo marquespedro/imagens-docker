@@ -13,3 +13,6 @@
  
 ## se conecta ao topico criado (meutopico) como um CONSUMER no broker localhost:29092 afim de visualizar via console as mensagens enviadas via console
     # kafka-console-consumer --bootstrap-server localhost:29092 --topic meutopico
+    
+## o mesmo do comando anterior porém obtendo todas as mensagens enviadas no topico desde o inicio
+    # kafka-console-consumer --bootstrap-server localhost:29092 --topic meutopico --from-beginning
