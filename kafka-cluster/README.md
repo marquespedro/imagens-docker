@@ -19,3 +19,12 @@
     
 ## o mesmo do comando anterior porém consumindo de um grupo o que paraleliza o consumo das mensagens tornando mais performatico
     # kafka-console-consumer --bootstrap-server localhost:29092 --topic meutopico --from-beginning --group a
+
+## exibe as informacoes sobre o topico
+    # kafka-topics --describe --bootstrap-server localhost:29092 --topic meutopico
+ 
+ ## exibe as informacoes sobre o grupo de consumers
+    # kafka-consumer-groups --group a --bootstrap-server localhost:29092 --describe
+    
+     
+ 
